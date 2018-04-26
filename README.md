@@ -13,4 +13,6 @@ Carto map is layered with mapbox API
 
 Permalink is www.gandhimap.org originally maps to http://dh-web.hss.cmu.edu/gandhi/
 
+Uses bootstrap 4. Gemfile is here : https://github.com/benbalter/jekyll-bootstrap-sass
+
 DJE
