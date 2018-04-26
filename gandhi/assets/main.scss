@@ -1,0 +1,187 @@
+---
+---
+@import "{{ site.theme }}";
+@charset "utf-8";
+
+h2{text-align:center;
+  vertical-align: middle;
+  color: #fff !important;
+  font-size: 400% !important;
+}
+
+h1{text-align:center;
+  vertical-align: middle;
+  color: #fff !important;
+  font-size: 700% !important;
+}
+
+h1.post-title {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: 800 !important;
+  font-family: "Apple LiGothic" !important;
+  color: #fff !important;
+  text-shadow: 2px 2px rgba(0,0,0,0.7);
+}
+
+p{
+  font-family: "Apple LiGothic" !important;
+}
+
+a{
+  font-family: "Apple LiGothic" !important;
+}
+
+body{
+  font-family: "Apple LiGothic" !important;
+}
+
+
+button#enter.btn.btn-default{
+  background-color: transparent;
+  border: 3px solid #fff;
+  margin-top: 20px;
+  color: #fff;
+  font-style: bold;
+}
+
+button#enter.btn.btn-default:hover{
+  background-color: #fff;
+  border: 3px solid #fff;
+  color: #000;
+  transition: 0.5s;
+}
+
+button#enter.btn.btn-active{
+  background-color: #fff;
+  border: 3px solid #fff;
+  color: #000;
+  border-left: 0px;
+}
+
+button.btn.btn-default{
+  background-color: #fff;
+  border: 3px solid #000;
+  margin-top: 20px;
+  color: #000;
+  font-style: bold;
+}
+
+button.btn.btn-default:hover{
+  background-color: #000;
+  border: 3px solid #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+button.btn.btn-active{
+  background-color: #000;
+  border: 3px solid #000;
+  color: #fff;
+  border-left: 0px;
+}
+
+#box{
+  background-color: #e0e0e0;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 1024px;
+}
+
+h2.footer-heading{
+  display: none;
+}
+
+img.img-responsive.footer-image{
+  min-width: 204px;
+  float: right;
+  padding-right: 5px;
+}
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+nav.site-nav{
+  display: none;
+}
+
+body.about {
+  background-image: url('{{ site.baseurl }}/assets/img/backgroundStill.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+div.row{
+  background-color: rgba(245,249,228,0.7);
+  padding: 10px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
+}
+
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+
+ #sustAgri, #sustAgri1, #waterMGMT, #waterMGMT1, #womenEmp, #womenEmp1, #villInd, #villInd1{
+  display: none;
+}
+
+.mill, .fruit, .rivers, .women, .mill {
+  display: none;
+}
+
+#cartodb-map {
+  height:400px;
+  position: relative;
+}
+
+#enter {
+  font-size: 220%;
+  margin-top: 35% !important;
+}
+
+.popover{
+  max-width: 80% !important;
+  font-family: "Apple LiGothic" !important;
+
+}
+
+.btn.btn-default.btn-lg{
+  font-size: 150%;
+}
+
+
+$icon-font-path: "fonts/bootstrap/" !default;
+
+@import "bootstrap";

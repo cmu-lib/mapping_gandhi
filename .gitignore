@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-metadata
+gandhi/assets/img/*.gif
+gandhi/assets/img/*.mp4
+gandhi/assets/img/*.jpg
