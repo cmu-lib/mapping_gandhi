@@ -16,8 +16,8 @@
 title: Mapping Gandhi
 email: slate@cmu.edu
 description:
-baseurl: "/gandhi" # the subpath of your site, e.g. /blog
-url: "http://dc-vm2-rhel.andrew.cmu.edu/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mapping-gandhi.library.cmu.edu/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
@@ -32,8 +32,8 @@ exclude:
   - Gemfile.lock
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 bootstrap:
   assets: true
